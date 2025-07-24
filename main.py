@@ -5,7 +5,7 @@ import requests
 BACKEND_URL = "https://bugs-backend.takeuforward.org"
 TELEGRAM_BOT_TOKEN = "7462619254:AAEFKdgz9qnZuRYqg_cd5YuWEg6mYKaMq6k"
 TELEGRAM_CHAT_ID = "1390912843"
-CHECK_INTERVAL = 30 # in seconds
+CHECK_INTERVAL = 1800 # in seconds
 
 def send_telegram(msg):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
